@@ -1,0 +1,12 @@
+<form action="URL_DE_LA_CLOUD_FUNCTION" method="POST">
+  <label for="startup-name">Startup Name:</label>
+  <input type="text" id="startup-name" name="startup-name" required><br>
+
+  <label for="investor-name">Investor Name:</label>
+  <input type="text" id="investor-name" name="investor-name" required><br>
+
+  <label for="amount-invested">Amount Invested:</label>
+  <input type="number" id="amount-invested" name="amount-invested" required><br>
+
+  <input type="submit" value="Submit">
+</form>
